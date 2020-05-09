@@ -11,8 +11,7 @@ const Count = () => {
                 {store.likeCount}
             </div>
             <div className="col-sm" align="right">
-
-                3 comments
+                {store.commentCount} comments
 
             </div>
         </div>
